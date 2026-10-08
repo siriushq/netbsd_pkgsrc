@@ -21,7 +21,7 @@ jobs:
           git config --global user.name "siriushq-aggregate[bot]"
           git config --global user.email "siriushq-aggregate[bot]@users.noreply.github.com"
 
-          git remote add upstream https://github.com/netbsd/src.git
+          git remote add upstream https://github.com/netbsd/pkgsrc.git
           git fetch upstream
           git checkout -B trunk upstream/trunk
           
