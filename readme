@@ -2,12 +2,8 @@ siriushq/netbsd_pkgsrc
 ======================
 
 This repository hosts a mirror of the pkgsrc source code, available in
-the `trunk` branch, retrieved from the official Git mirror of the CVS
-repository.  There are several guides for developers and users, the
-formatted guide is available at:
+the `upstream` branch, retrieved from the official Git mirror of the
+CVS repository, tracking `trunk`.  There are several guides for
+developers and users, the formatted guide is available at:
 
 	https://www.netbsd.org/docs/pkgsrc/
-
-This repository is maintained to provide a Git workflow for forks and
-other projects that depend on this source tree.  The `trunk` branch is
-the exclusive tracking-branch for every dependent.
